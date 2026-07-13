@@ -1,0 +1,8 @@
+build/
+bin/
+*.o
+*.out
+scene_game
+imgui.ini
+.vscode/
+.DS_Store
