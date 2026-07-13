@@ -1,8 +1,24 @@
+# CMake build output
 build/
-bin/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# Compiled output
 *.o
-*.out
-scene_game
-imgui.ini
+*.a
+*.so
+
+# Editor artifacts
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
 .DS_Store
+
+# Runtime and temp files
+*.log
